@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Ashab Hossain — Mechanical Engineer &amp; ML Researcher</title>
+    <meta name="description" content="Portfolio of MD Ashab Hossain — Mechanical Engineering student at BUET specializing in machine learning, autonomous robotics, and thermal systems. Explore projects, research, and experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>MAH<span class="logo-bracket">/&gt;</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#research" class="nav-link">Research</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">
+                <span class="name-line">MD Ashab</span>
+                <span class="name-line accent">Hossain</span>
+            </h1>
+            <div class="hero-typewriter">
+                <span class="typewriter-static">I build </span>
+                <span class="typewriter-text" id="typewriterText"></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+            <p class="hero-desc">Mechanical Engineering student at <strong>BUET</strong> passionate about autonomous robotics, machine learning, and precision thermal systems.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                </a>
+                <a href="assets/resume.pdf" class="btn btn-outline" download>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                    <span>Download Resume</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll down</span>
+        </div>
+    </section>
+
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf6f0"/></svg>
+    </div>
+
+    <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">Analytical engineer focused on industrial automation, energy systems, and efficiency improvements.</p>
+                    <p>I'm currently pursuing my B.Sc. in Mechanical Engineering at the Bangladesh University of Engineering and Technology (BUET) with a CGPA of 3.24/4.0. My work spans from designing thermoelectric climate control systems to building autonomous mobile robots with machine-learning-powered navigation.</p>
+                    <p>I'm skilled in HVAC planning, performance analysis, and troubleshooting to support reliable, efficient operations. My passion lies at the intersection of mechanical engineering and artificial intelligence — where hardware meets intelligent software.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c6 3 12 0 12 0v-5"/></svg>
+                        </div>
+                        <div>
+                            <h3>Education</h3>
+                            <p><strong>BUET</strong> — B.Sc. Mechanical Engineering</p>
+                            <p class="detail-sub">CGPA: 3.24 / 4.0</p>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c6 3 12 0 12 0v-5"/></svg>
+                        </div>
+                        <div>
+                            <h3>Pre-University</h3>
+                            <p><strong>Birshreshtha Noor Mohammad Public College</strong></p>
+                            <p class="detail-sub">HSC 2020: GPA 5.00 · SSC 2018: GPA 5.00</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ SKILLS ═══════════════════════════════ -->
+    <section class="section section-warm" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon-wrap">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+                    </div>
+                    <h3>Programming & Scripting</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Generative AI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon-wrap">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <h3>Data Analysis & ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">ROS2</span>
+                        <span class="skill-tag">Roboflow</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon-wrap">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Simulation & CAD</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">ANSYS</span>
+                        <span class="skill-tag">Arduino IDE</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon-wrap">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+                    </div>
+                    <h3>Graphics & Media</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Adobe Premiere Pro</span>
+                        <span class="skill-tag">Blender</span>
+                        <span class="skill-tag">Canva</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Project 1: Thermocouple DAQ -->
+            <div class="project-card" id="project1">
+                <div class="project-visual">
+                    <div class="project-gallery">
+                        <img src="assets/project1/p1-1.png" alt="Full experimental setup: camera on tripod facing the muffle furnace display" class="project-img active" loading="lazy">
+                        <img src="assets/project1/p1-2.png" alt="Software pipeline reading furnace temperature from a photo" class="project-img" loading="lazy">
+                    </div>
+                    <div class="gallery-dots">
+                        <button class="gallery-dot active" data-index="0" aria-label="Image 1"></button>
+                        <button class="gallery-dot" data-index="1" aria-label="Image 2"></button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-label">Project 01 — Instrumentation & ML</span>
+                    <h3 class="project-title">Smart Temperature Calibration System</h3>
+                    <p class="project-desc">Calibrating a thermocouple (a temperature sensor) normally means a person sits in front of a furnace for hours, manually writing down readings. I built a system that does this entire job automatically.</p>
+                    <p class="project-desc">A phone camera watches the furnace display, and a machine-learning model reads the numbers from the screen — just like a human would, but without errors or fatigue. At the same time, an Arduino board records the sensor's own reading. The software merges both readings, plots a calibration curve, and tells you exactly how accurate the sensor is — all hands-free.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">MAX6675</span>
+                        <span class="tech-tag">Roboflow ML</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Scikit-Learn</span>
+                        <span class="tech-tag">Matplotlib</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: TEC Climate Control -->
+            <div class="project-card reverse" id="project2">
+                <div class="project-visual">
+                    <div class="project-gallery">
+                        <img src="assets/project2/p2-1.png" alt="System overview showing all components" class="project-img active" loading="lazy">
+                        <img src="assets/project2/p2-2.png" alt="3D CAD design of the control units" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-3.png" alt="Assembled temperature control unit" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-4.png" alt="Internal wiring and Peltier module placement" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-5.png" alt="Humidity control copper condenser unit" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-6.png" alt="Final assembled product from the front" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-7.png" alt="Water cooling recirculation system" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-8.png" alt="Temperature performance graph over time" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-9.png" alt="Humidity reduction results" class="project-img" loading="lazy">
+                        <img src="assets/project2/p2-10.png" alt="Complete system in operation" class="project-img" loading="lazy">
+                    </div>
+                    <div class="gallery-dots">
+                        <button class="gallery-dot active" data-index="0" aria-label="Image 1"></button>
+                        <button class="gallery-dot" data-index="1" aria-label="Image 2"></button>
+                        <button class="gallery-dot" data-index="2" aria-label="Image 3"></button>
+                        <button class="gallery-dot" data-index="3" aria-label="Image 4"></button>
+                        <button class="gallery-dot" data-index="4" aria-label="Image 5"></button>
+                        <button class="gallery-dot" data-index="5" aria-label="Image 6"></button>
+                        <button class="gallery-dot" data-index="6" aria-label="Image 7"></button>
+                        <button class="gallery-dot" data-index="7" aria-label="Image 8"></button>
+                        <button class="gallery-dot" data-index="8" aria-label="Image 9"></button>
+                        <button class="gallery-dot" data-index="9" aria-label="Image 10"></button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-label">Project 02 — Thermal Systems</span>
+                    <h3 class="project-title">Portable Climate Control Box</h3>
+                    <p class="project-desc">Imagine a small, affordable box that can cool or heat a tiny space — like a mini air conditioner and heater in one, without any refrigerant gas. That's what I designed and built from scratch.</p>
+                    <p class="project-desc">It uses a special chip called a Peltier module — one side gets hot, the other gets cold when electricity flows through it. I used this principle to build two units: one that controls temperature (ranging from cool 19°C to warm 50°C), and another that removes moisture from the air by condensing it on a cold copper tube. The whole thing was designed in 3D software, hand-fabricated, and cost under $80.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">TEC-12706 Peltier</span>
+                        <span class="tech-tag">SolidWorks</span>
+                        <span class="tech-tag">Closed-Loop Cooling</span>
+                        <span class="tech-tag">Copper Condenser</span>
+                        <span class="tech-tag">Digital Sensors</span>
+                        <span class="tech-tag">DC Pump</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: FEA Structural Analysis -->
+            <div class="project-card" id="project3">
+                <div class="project-visual">
+                    <div class="project-gallery">
+                        <img src="assets/project3/p3-1.jpg" alt="3D model of the hook and beam structure" class="project-img active" loading="lazy">
+                        <img src="assets/project3/p3-2.jpg" alt="Safety factor colour map showing safe and unsafe zones" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-3.jpg" alt="Detailed mesh used for simulation" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-4.jpg" alt="How much the structure bends under load" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-5.jpg" alt="Stress concentration at the hook's inner curve" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-6.jpg" alt="Full stress map of the beam and column" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-7.jpg" alt="Comparison between hand calculation and simulation" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-8.jpg" alt="Fatigue life analysis results" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-9.jpg" alt="Alternate material analysis" class="project-img" loading="lazy">
+                        <img src="assets/project3/p3-10.jpg" alt="Final design recommendation summary" class="project-img" loading="lazy">
+                    </div>
+                    <div class="gallery-dots">
+                        <button class="gallery-dot active" data-index="0" aria-label="Image 1"></button>
+                        <button class="gallery-dot" data-index="1" aria-label="Image 2"></button>
+                        <button class="gallery-dot" data-index="2" aria-label="Image 3"></button>
+                        <button class="gallery-dot" data-index="3" aria-label="Image 4"></button>
+                        <button class="gallery-dot" data-index="4" aria-label="Image 5"></button>
+                        <button class="gallery-dot" data-index="5" aria-label="Image 6"></button>
+                        <button class="gallery-dot" data-index="6" aria-label="Image 7"></button>
+                        <button class="gallery-dot" data-index="7" aria-label="Image 8"></button>
+                        <button class="gallery-dot" data-index="8" aria-label="Image 9"></button>
+                        <button class="gallery-dot" data-index="9" aria-label="Image 10"></button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-label">Project 03 — Structural Engineering</span>
+                    <h3 class="project-title">Will This Crane Hook Break? A Virtual Stress Test</h3>
+                    <p class="project-desc">Before a real crane hook is used on a construction site, engineers need to know: at what weight will it fail? Instead of breaking real hooks (which is expensive and dangerous), I tested one entirely inside a computer using simulation software.</p>
+                    <p class="project-desc">I modelled a complete lifting system — hook, rope, beam, and supporting column — then applied heavy loads to see where stress builds up and whether the metal would crack or bend. The result? The hook is safe at lighter loads, but at twice the weight it's dangerously close to failure. I also predicted how many loading cycles it could survive before fatigue sets in, and recommended specific design changes to make it safer.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ANSYS Static Structural</span>
+                        <span class="tech-tag">Winkler-Bach Theory</span>
+                        <span class="tech-tag">Von Mises Stress</span>
+                        <span class="tech-tag">Goodman Fatigue</span>
+                        <span class="tech-tag">SolidWorks</span>
+                        <span class="tech-tag">FEA Meshing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ RESEARCH ═══════════════════════════════ -->
+    <section class="section section-warm" id="research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04</span>
+                <h2 class="section-title">Research</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="research-hero">
+                <div class="research-badge">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+                    <span>B.Sc. Thesis — Dept. of Mechanical Engineering, BUET</span>
+                </div>
+                <h3 class="research-title">Capability-Aware Autonomous Navigation for Torque-Adaptive Mobile Robots</h3>
+                <p class="research-abstract">Most robots treat every bump, slope, or rough patch as a wall they can't cross — so they waste time going around things they could actually drive over. My thesis asks: what if the robot knew its own strength? What if it could look at a rough surface and decide "I can handle that" or "that's too much for my wheels"? I built a robot that does exactly that.</p>
+                <div class="research-cta" style="margin-top: 24px;">
+                    <a href="assets/thesis.pdf" class="btn btn-outline" download>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                        <span>Download Full Thesis</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="research-content">
+                <div class="research-details">
+                    <div class="research-section">
+                        <h4>The Problem</h4>
+                        <p>Today's robots use navigation software that sees the world in black and white: flat floor = safe, everything else = obstacle. This means a robot will take a 40-second detour around a small gravel patch it could easily drive across in 8 seconds. It has no concept of "I'm strong enough to handle that."</p>
+                    </div>
+                    <div class="research-section">
+                        <h4>What I Built</h4>
+                        <p>I designed a navigation system that gives the robot self-awareness about its own physical limits. Using a depth camera (like the sensors in a modern smartphone), the robot scans the ground ahead and classifies each patch as "easy to cross," "crossable but need more power," or "too risky." Based on this judgement, it picks the smartest route and automatically adjusts how hard each wheel pushes — more power on rough ground, less on smooth surfaces.</p>
+                    </div>
+                    <div class="research-section">
+                        <h4>Key Results</h4>
+                        <ul class="research-results">
+                            <li>The robot completed tasks <strong>67% of the time</strong> in real-world tests — vs. 50% for the next-best approach</li>
+                            <li>It reached goals <strong>5× faster</strong> (8 seconds vs. 43 seconds) by driving through terrain instead of around it</li>
+                            <li>It automatically applied <strong>3–4× more wheel power</strong> on rough surfaces while keeping a steady speed</li>
+                            <li>In 50 simulated test runs, it succeeded <strong>88–91% of the time</strong></li>
+                        </ul>
+                    </div>
+                    <div class="research-keywords">
+                        <span class="keyword">Capability-Aware Navigation</span>
+                        <span class="keyword">Torque-Adaptive Control</span>
+                        <span class="keyword">Traversability Estimation</span>
+                        <span class="keyword">ROS2</span>
+                        <span class="keyword">PyTorch</span>
+                        <span class="keyword">Mobile Robots</span>
+                        <span class="keyword">CNN</span>
+                    </div>
+                </div>
+
+                <div class="research-gallery">
+                    <div class="research-img-grid">
+                        <div class="research-img-card">
+                            <img src="assets/research/r-4.png" alt="ROS2 software node graph" loading="lazy">
+                            <span>Software Architecture</span>
+                        </div>
+                        <div class="research-img-card">
+                            <img src="assets/research/r-2.png" alt="CAD design with components labelled" loading="lazy">
+                            <span>Component Layout</span>
+                        </div>
+                        <div class="research-img-card">
+                            <img src="assets/research/r-3.png" alt="The finished robot with all components" loading="lazy">
+                            <span>Assembled Robot</span>
+                        </div>
+                        <div class="research-img-card">
+                            <img src="assets/research/r-5.png" alt="Custom-built navigation simulator" loading="lazy">
+                            <span>Custom Simulator</span>
+                        </div>
+                        <div class="research-img-card">
+                            <img src="assets/research/r-6.jpeg" alt="CAD model of the robot chassis - Isometric" loading="lazy">
+                            <span>CAD Frame (Isometric)</span>
+                        </div>
+                        <div class="research-img-card">
+                            <img src="assets/research/r-7.jpeg" alt="CAD model of the robot chassis - Top View" loading="lazy">
+                            <span>CAD Frame (Top View)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-tech-stack">
+                <h4>Tech Stack & Tools</h4>
+                <div class="tech-stack-grid">
+                    <div class="tech-item">
+                        <span class="tech-label">Robot Framework</span>
+                        <span class="tech-value">ROS2 + Nav2</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">ML Backend</span>
+                        <span class="tech-value">PyTorch CNN (GoNoGo)</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">CAD Design</span>
+                        <span class="tech-value">SolidWorks</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Simulator</span>
+                        <span class="tech-value">Custom Pygame</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Language</span>
+                        <span class="tech-value">Python</span>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-label">Hardware</span>
+                        <span class="tech-value">Custom Wheeled Robot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ EXPERIENCE ═══════════════════════════════ -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Industrial Trainee</h3>
+                                <p class="timeline-company">Synovia Pharmaceuticals PLC</p>
+                            </div>
+                            <span class="timeline-date">Mar 2025 — Apr 2025</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Collaborated with <strong>5+ cross-functional teams</strong> (engineering, QA, procurement, utilities, IT) on optimizations in water treatment, energy, and production efficiency.</li>
+                            <li>Studied procurement & inventory in <strong>Oracle ERP</strong> across 5000+ SKUs; flagged opportunities for data-driven forecasting and supply chain optimization.</li>
+                            <li>Evaluated <strong>HVAC & cleanroom data</strong> (temperature, humidity, particle count) across 20+ zones; tuned parameters to maintain <strong>&gt;98% GMP compliance</strong> and cut deviation incidents by 15%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Physics Instructor</h3>
+                                <p class="timeline-company">Udvash</p>
+                            </div>
+                            <span class="timeline-date">2023 — 2025</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Tutored and managed over <strong>5,000 HSC-level students</strong> in physics.</li>
+                            <li>Prepared material content for the <strong>Udvash Parallel Text</strong> — one of Bangladesh's largest educational publications.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+    <section class="section section-warm" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">06</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-lead">I'm always open to discussing engineering challenges, research collaborations, or career opportunities. Feel free to reach out!</p>
+                <div class="contact-cards">
+                    <a href="mailto:00.ashab.official@gmail.com" class="contact-card" id="contactEmail">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <h3>Email</h3>
+                        <p>00.ashab.official@gmail.com</p>
+                    </a>
+                    <a href="tel:+8801318856238" class="contact-card" id="contactPhone">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+880 1318 856 238</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ashabhossain/" target="_blank" rel="noopener" class="contact-card" id="contactLinkedIn">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/ashabhossain</p>
+                    </a>
+                </div>
+                <div class="contact-resume">
+                    <a href="assets/resume.pdf" class="btn btn-primary btn-lg" download>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                        <span>Download Full Resume</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ REFERENCES ═══════════════════════════════ -->
+    <section class="section references-section" id="references">
+        <div class="container">
+            <h3 class="references-title">References</h3>
+            <div class="references-grid">
+                <div class="reference-card">
+                    <h4>Dr. Mohammad Mamun</h4>
+                    <p>Professor, Dept. of Mechanical Engineering, BUET</p>
+                    <a href="mailto:dmmamun@me.buet.ac.bd">dmmamun@me.buet.ac.bd</a>
+                </div>
+                <div class="reference-card">
+                    <h4>MD Asif Hossain</h4>
+                    <p>ASP, Bangladesh Police</p>
+                    <a href="mailto:asifhossainbuet071@gmail.com">asifhossainbuet071@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copy">&copy; 2026 MD Ashab Hossain. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══════════════ LIGHTBOX MODAL ═══════════════ -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
