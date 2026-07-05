@@ -705,6 +705,72 @@ ul, ol { list-style: none; }
 }
 
 /* ══════════════════════════════════════════════════════════
+   CERTIFICATIONS — credential badges
+   ══════════════════════════════════════════════════════════ */
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.cert-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 28px 32px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.5s var(--ease-fluid);
+}
+
+.cert-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-warm);
+    border-color: var(--border-warm);
+}
+
+.cert-icon {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-soft);
+    border-radius: var(--radius-md);
+    color: var(--accent);
+    transition: all 0.4s var(--ease-fluid);
+}
+
+.cert-card:hover .cert-icon {
+    background: var(--accent);
+    color: #fff;
+    transform: scale(1.08);
+}
+
+.cert-info h3 {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    color: var(--text-heading);
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.cert-issuer {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 4px;
+}
+
+.cert-meta {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+}
+
+/* ══════════════════════════════════════════════════════════
    PROJECTS — organic cards with warmth
    ══════════════════════════════════════════════════════════ */
 .project-card {
@@ -1467,6 +1533,8 @@ ul, ol { list-style: none; }
     .timeline-header { flex-direction: column; }
 
     .research-img-grid { gap: 12px; }
+
+    .certifications-grid { grid-template-columns: 1fr; }
 
     .contact-cards { grid-template-columns: 1fr; }
 
